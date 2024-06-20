@@ -1,2 +1,7 @@
 Hello Oleksii Oleksandrovich
+<<<<<<< HEAD
 Dovilnyu tekst zavdannya 13
+=======
+Dovilnyu tekst zavdannya 13
+Perevirka number one
+>>>>>>> develop
