@@ -1,5 +1,7 @@
 package my.example;
 
+//Урок №2 вправи 1-3
+
 public class Test {
     public static void main(String[] args) {
       //int
