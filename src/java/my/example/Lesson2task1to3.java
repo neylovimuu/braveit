@@ -38,7 +38,8 @@ public class Lesson2task1to3 {
       //char
       char char1 = 10;
       char char2 = 64525;
-      int sumChar = char1 + char2;
+      char char3 = 'B';
+      int sumChar = char1 + char2 + char3;
       System.out.println("sumChar=" + sumChar);
 
       //Сума всіх чисел
