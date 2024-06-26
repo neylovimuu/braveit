@@ -1,6 +1,6 @@
-package my.example;
+package lesson2;
 
-public class Lesson2task1to3 {
+public class TaskOneToThree {
     public static void main(String[] args) {
       //int
       int int10 = 3;
@@ -50,6 +50,16 @@ public class Lesson2task1to3 {
       //Сума всіх чисел
       double longResult = sumInt + sumDouble + sumLong + sumFloat + sumChar + sumByte;
       System.out.println("sumLongResult=" + longResult);
+
+      double d = 500d;
+      double z = 0xFeFAL;
+      double v = 1_0.0_1;
+      double n = 0;
+      double s = 500L;
+      double y = 0;
+      double q = 1.1;
+      System.out.println(d);
+
 
     }
 }
