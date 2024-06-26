@@ -10,7 +10,7 @@ public class lesson2task4 {
         DecimalFormat df = new DecimalFormat("#.##");        // виконав завдання і захотілось мені зменшити кількість знаків в фарингейтах після коми
         String formatC = df.format(C);
 
-        System.out.println(F + " F " + formatC + " C ");
+        System.out.println(F + " F = " + formatC + " C ");
 
     }
         public static double convertToCelsius(double degreeFahrenheit) {
