@@ -5,10 +5,10 @@ import java.text.DecimalFormat;
 public class TaskFour {
     public static void main(String[] args) {
         double faringate = 35.5;
-        double santimeter = convertToCelsius(faringate);
+        double celsius = convertToCelsius(faringate);
 
         DecimalFormat df = new DecimalFormat("#.##");        // виконав завдання і захотілось мені зменшити кількість знаків в фарингейтах після коми
-        System.out.println(faringate + " F = " + df.format(santimeter) + " C ");
+        System.out.println(faringate + " F = " + df.format(celsius) + " C ");
     }
 
     public static double convertToCelsius(double degreeFahrenheit) {
