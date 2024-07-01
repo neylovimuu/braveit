@@ -9,5 +9,6 @@ public class TaskOne {
     System.out.println(y-w);
     System.out.println(y/w);
     System.out.println(y%w);
+    System.out.println(++y%w);
     }
 }
