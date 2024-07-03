@@ -6,7 +6,7 @@ public class TaskOne {
         int count = 101;
         while (count <= 199) {
             System.out.println(count);
-            count = count + 1;
+            count = count + 2;
         }
         System.out.println("Все стопе, зупинись...");
     }
