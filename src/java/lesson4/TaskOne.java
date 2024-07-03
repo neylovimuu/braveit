@@ -3,10 +3,10 @@ package lesson4;
 public class TaskOne {
     public static void main(String[] args) {
         System.out.println("Кодиш, як бог, я в шоці, 4е заннятя,а ти вже таке виписуєш.Красень!");
-        int count = 100;
-        while (count <= 200) {
+        int count = 101;
+        while (count <= 199) {
             System.out.println(count);
-            count = count + 2;
+            count = count + 1;
         }
         System.out.println("Все стопе, зупинись...");
     }
