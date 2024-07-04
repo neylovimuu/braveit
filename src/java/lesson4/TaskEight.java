@@ -7,9 +7,14 @@ public class TaskEight {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введіть перше число:");
         int firstNumber = scanner.nextInt();
+        int sum = 0;
 
-
+        while (firstNumber > 0) {
+            int firstPartNumber = firstNumber % 10;
+            sum = sum + firstPartNumber;
+            firstNumber = firstNumber / 10;
 
         }
-    }
+            System.out.println(sum);
+        }
 }
