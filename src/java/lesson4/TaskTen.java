@@ -2,7 +2,9 @@ package lesson4;
 
 import java.util.Scanner;
 
-// Напишіть програму для обчислення відстані між двома точками на поверхні землі.
+/**
+ * Напишіть програму для обчислення відстані між двома точками на поверхні землі.
+ */
 public class TaskTen {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -25,8 +27,8 @@ public class TaskTen {
         double deltaLon = lon2Radians - lon1Radians;
 
         double a = Math.sin(deltaLat / 2) * Math.sin(deltaLat / 2) +
-                Math.cos(lat1Radians) * Math.cos(lat2Radians) *
-                        Math.sin(deltaLon / 2) * Math.sin(deltaLon / 2);
+            Math.cos(lat1Radians) * Math.cos(lat2Radians) *
+            Math.sin(deltaLon / 2) * Math.sin(deltaLon / 2);
         double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
         double distance = earthRadius * c;
 
