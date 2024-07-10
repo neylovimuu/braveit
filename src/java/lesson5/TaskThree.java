@@ -6,16 +6,14 @@ package lesson5;
  */
 public class TaskThree {
     public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 5, 6};
+        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         double sum = 0;
-        int averegeValue = 0;
 
-        for (int i = 0; i < numbers.length ; i++) {
-            sum += numbers[i];
+        for (int number : numbers) {
+            sum += number;
 
         }
-        sum = sum / numbers.length;
-        System.out.println(sum);
-
+        double average = sum / numbers.length;
+        System.out.println(average);
     }
 }
