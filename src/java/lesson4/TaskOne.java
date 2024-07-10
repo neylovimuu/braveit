@@ -1,6 +1,6 @@
 packpackage lesson4;
 
-public class TaskOne {
+public class TaskOne{
     public static void main(String[] args) {
         System.out.println("Кодиш, як бог, я в шоці, 4е заннятя,а ти вже таке виписуєш.Красень!");
         int number = 101;
