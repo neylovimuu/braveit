@@ -10,15 +10,11 @@ public class TaskOne {
         System.out.println(sumOfElement(myArray));
         System.out.println(sumOfElement(myArray1));
     }
-
     public static int sumOfElement(int[] array) {
         int  result = 0;
         for (int j : array) {
             result += j;
         }
         return result ;
-
     }
-
-
 }
