@@ -4,7 +4,7 @@ public class TaskFive {
     public static void main(String[] args){
 
         int decimalNumber = 15;
-        System.out.println("Введено десятирічне число: " + decimalNumber);
+        System.out.println("Введено десяткове число: " + decimalNumber);
 
         String octalNumber = Integer.toOctalString(decimalNumber);
 
