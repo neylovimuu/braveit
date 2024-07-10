@@ -1,13 +1,10 @@
 package lesson5;
-
-import java.util.Scanner;
-
 /**
  * Написати програму Java яка отримує n- чисел типу int як передані параметри. Порахувати їх суму,
  * результат вивести в консоль.
  */
 public class TaskOne {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int [] myArray = {1, 5, 60};
         int [] myArray1 = {1, 5, -60, 10};
         System.out.println(sumOfElement(myArray));
