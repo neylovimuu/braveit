@@ -13,8 +13,8 @@ public class TaskOne {
 
     public static int sumOfElement(int[] array) {
         int  result = 0;
-        for (int i = 0; i < array.length; i++) {
-            result += array[i];
+        for (int j : array) {
+            result += j;
         }
         return result ;
 
