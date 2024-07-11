@@ -12,8 +12,8 @@ public class TaskFive {
 
         String hexNumber = Integer.toHexString(decimalNumber);
 
-        System.out.println("Восьмирічне: " + octalNumber);
+        System.out.println("Вісімкове: " + octalNumber);
         System.out.println("Двійкове: " + binaryNumber);
-        System.out.println("Шістнадцятирічне: " + hexNumber);
+        System.out.println("Шістнадцяткове: " + hexNumber);
     }
 }
