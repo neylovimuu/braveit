@@ -1,6 +1,7 @@
 package lesson4;
 
 import java.util.Scanner;
+
 /**
  * Напишіть програму для обчислення суми цифр цілого числа.
  */
