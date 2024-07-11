@@ -5,7 +5,7 @@ package lesson4;
  */
 public class TaskTwo {
     public static void main(String[] args){
-    int number = -100;
+        int number = -100;
         do {
             System.out.println(number);
             number = number + 2;
