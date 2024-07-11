@@ -11,11 +11,11 @@ public class TaskNine {
         System.out.println("Введіть число:");
         int number = scanner.nextInt();
         int factorial = 1;
-        int one = 1;
+        int dataOne = 1;
 
-        while (one <= number) {
-            factorial = factorial * one;
-            one++;
+        while (dataOne <= number) {
+            factorial = factorial * dataOne;
+            dataOne++;
 
         }
         System.out.println("Факторіал введеного числа: " + factorial);
