@@ -19,7 +19,7 @@ public class TaskTwelve {
             if (sum == number) {
                 System.out.println(number);
             }
-            number ++;
+            number++;
         }
     }
 }
