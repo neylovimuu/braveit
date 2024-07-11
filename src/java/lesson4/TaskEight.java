@@ -18,6 +18,6 @@ public class TaskEight {
             oneNumber = oneNumber / 10;
 
         }
-            System.out.println(sum);
+        System.out.println(sum);
     }
 }
