@@ -16,7 +16,6 @@ public class TaskEleven {
         while (number != 0) {
             reversedNumber = reversedNumber * 10 + number % 10;
             number /= 10;
-
         }
         System.out.println(reversedNumber);
     }
